@@ -1,0 +1,101 @@
+/* src/TicTacToe.css */
+
+.game {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .board {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 2px solid #333;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .square:hover {
+    background: #f0f0f0;
+  }
+  
+  .info {
+    font-size: 18px;
+  }
+  
+  .reset-button, .new-game-button, .start-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .reset-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .new-game-button {
+    background-color: #28a745;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .new-game-button:hover {
+    background-color: #218838;
+  }
+  
+  .start-button {
+    background-color: #17a2b8;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .start-button:hover {
+    background-color: #117a8b;
+  }
+  
+  .player-names input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .history {
+    margin-top: 20px;
+  }
+  
+  .history h3 {
+    margin-bottom: 10px;
+  }
+  
+  .history ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .history li {
+    margin-bottom: 5px;
+  }
+  
